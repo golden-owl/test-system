@@ -56,6 +56,7 @@ let config = {
 	django: {
 		apps: [
 			'tester',
+			'mainpage',
 		],
 		project: 'test_system',
 		root: './src',
