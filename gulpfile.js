@@ -185,7 +185,6 @@ gulp.task('img', function() {
 	src.push(`./${config.django.root}/media/img/**/*`);
 	return combine(
 		gulp.src(src),
-		// $.if(!isDevelopment, $.imagemin()),
 		rev(),
 		gulp.dest(getDestPath),
 		combine(

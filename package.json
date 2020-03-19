@@ -38,7 +38,6 @@
     "gulp-cssmin": "latest",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^7.1.0",
     "gulp-load-plugins": "^2.0.2",
     "gulp-notify": "latest",
     "gulp-postcss": "latest",
