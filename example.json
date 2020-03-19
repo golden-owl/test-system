@@ -1,0 +1,53 @@
+{
+	"id:": 1,
+	"theme": "Name",
+	"description": "Short description",
+	"questions": [
+		{
+			"id": 1,
+			"type": "FA",
+			"text": "What is the question?",
+			"image": "",
+			"price": 0,
+			"answers": []
+		},
+		{
+			"id": 2,
+			"type": "OA",
+			"text": "What is the question?",
+			"image": "",
+			"price": 0,
+			"answers": [
+				{
+					"id": 1,
+					"text": "A question"
+				},
+				{
+					"id": 2,
+					"text": "The question"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"type": "MA",
+			"text": "What is the question?",
+			"image": "",
+			"price": 0,
+			"answers": [
+				{
+					"id": 3,
+					"text": "A question"
+				},
+				{
+					"id": 4,
+					"text": "The question"
+				},
+				{
+					"id": 5,
+					"text": "No question"
+				}
+			]
+		}
+	]
+}

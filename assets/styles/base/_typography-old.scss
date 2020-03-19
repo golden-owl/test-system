@@ -1,0 +1,7 @@
+@import "../abstracts/_mixins";
+
+
+@include font-face("MyriadPro-Regular", "../fonts/MyriadPro-Regular/MyriadPro-Regular");
+@include font-face("MyriadPro-Bold", "../fonts/MyriadPro-Bold/MyriadPro-Bold", bold);
+@include font-face("MyriadPro-Semibold", "../fonts/MyriadPro-Semibold/MyriadPro-Semibold", 100);
+@include font-face("MyriadPro-Light", "../fonts/MyriadPro-Light/MyriadPro-Light", light);
