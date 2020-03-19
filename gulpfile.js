@@ -49,6 +49,7 @@ let config = {
 		// Сюда добавлять путь к js файлам, которые необходимо собрать
 		entry: {
 			tester_main: './assets/js/tester_main.js',
+			mainpage_main: './assets/js/mainpage_main.js',
 		},
 		watch: './assets/js/**/*.js',
 		directories: [],
