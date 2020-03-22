@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load static %}
+
+{% block title %}{{ test }}{% endblock title %}
+
+{% block styles %}
+	<link rel="stylesheet" href="{% static 'css/tester_tmp.css' %}">
+{% endblock styles %}
+
+{% block content %}
+
+<div class="lev-1">
+	<ul class="lev-2 breadcrumbs">
+		<li><a href="{% url 'tester:categories' %}">Категории</a></li>
+		<li><a href="{% url 'tester:category' category.slug %}">{{ category }}</a></li>
+	</ul>
+	<h2>{{ test.name }}</h2>
+	{% for question in questions %}
+		<div class="lev-2">
+			<p>{{ question }}</p>
+			<p class="lev-3">{{ question.text }}</p>
+		</div>
+	{% endfor %}
+</div>
+
+{% endblock content %}
+
+{% block scripts %}
+	{% comment %} <script src="{% static 'js/tester_main.js' %}"></script> {% endcomment %}
+{% endblock scripts %}

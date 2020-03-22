@@ -1,0 +1,33 @@
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/common';
+
+.lev-1 {
+	padding: 20px;
+	background: rgb(193, 209, 52);
+	margin-bottom: 30px;
+}
+
+.lev-2 {
+	padding: 15px;
+	background: rgb(111, 211, 44);
+	margin-bottom: 20px;
+}
+
+.lev-3 {
+	padding: 10px;
+	background: rgb(211, 153, 44);
+	margin-bottom: 10px;
+}
+
+.breadcrumbs {
+	display: flex;
+	li {
+		margin-right: 20px;
+	}
+}
